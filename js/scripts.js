@@ -3,6 +3,45 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
     */
+
+    window.sr = ScrollReveal();
+
+    sr.reveal('.header-content-top', {
+      duration: 2500,
+      origin: 'top',
+      distance: '300px'
+    });
+
+    sr.reveal('.header-content-right', {
+      duration: 2500,
+      origin: 'right',
+      distance: '100px'
+    });
+
+    sr.reveal('.header-content-left-1', {
+      duration: 2500,
+      origin: 'left',
+      distance: '100px'
+    });
+
+    sr.reveal('.header-content-left-2', {
+      duration: 3000,
+      origin: 'left',
+      distance: '100px'
+    });
+
+    sr.reveal('.header-content-left-3', {
+      duration: 3500,
+      origin: 'left',
+      distance: '100px'
+    });
+
+    sr.reveal('.header-content-left-4', {
+      duration: 4000,
+      origin: 'left',
+      distance: '100px'
+    });
+
     (function ($) {
       ("use strict"); // Start of use strict
 
@@ -70,6 +109,8 @@
         },
       });
     })(jQuery); // End of use strict
+
+
 
 
 

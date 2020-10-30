@@ -12,15 +12,17 @@
         <meta property="og:type" content="website" />
         <meta property="og:title" content="ReadIN" />
         <meta property="og:description" content="Somos una librería digital en el cual el lector puede tomar decisiones, cambiar la historia y el final del libro" />
-        <meta property="og:image" content="https://lh3.googleusercontent.com/in3StHwgKjht94UaNmm6H2vpkGZhnQnpKNBcF2-t_HzexxL32pmOrVdIWOiVQhWAqyk2PQCl1l1BQAlQ9B2r_D5Tad4hXVhl0C0QAVYWgczEaaleLJknT7Gvj6mUtG27hGmHnNnU=w2400" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image" content="https://lh3.googleusercontent.com/ccL06Wh9ZFiwy0cQUUOoitoBblfl0w_rWFZVTooRcmPKp0nq50cOwrUG5aLSr5b3H1bCDKpGMjzbBSWFz_62lZUF0eJYR9q2Zy1HFNR1yattRR4loN04XPkMB747hhHqBzWRXvMb=w2400" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="300" />
         <meta property="og:image:alt" content="libros" />
         <!-- datos -->
         <title>ReadIN</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+         <!-- SCROOLL REVEAL JS LIBRARY CDN -->
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -34,7 +36,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
                 <!-- <a class="navbar-brand" href="#page-top">
-                    <img class="img-fuid"  src="assets/img/favicon.ico" alt="" width="30%" />
+                    <img loading="lazy"class="img-fuid"  src="assets/img/favicon.ico" alt="" width="30%" />
                 </a> -->
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">ReadIN</a>
                 
@@ -60,8 +62,8 @@
                             <h2 class="text-white-50 mx-auto mt-2 mb-5">Somos una librería digital en el cual el lector puede tomar decisiones, cambiar la historia y el final del libro.</h2>
                             <a class="btn btn-primary js-scroll-trigger" style="border-radius: 10px;" href="#demo">DEMO+</a>
                         </div>
-                        <div class="col-sm-6 mt-5">
-                            <img class="img-fluid mx-auto"  src="assets/img/smartphone.png" alt="" width="47%" />
+                        <div class="col-sm-6 mt-5 header-content-top">
+                            <img loading="lazy" class="img-fluid mx-auto" src="assets/img/smartphone.png" alt="" width="47%" />
                         </div>
                     </div>
                 </div>
@@ -73,28 +75,28 @@
                 <h2 class="text-center text-white-75 mt-0"> NUESTROS BENEFICIOS SON <p style="color: aqua; margin-bottom: 0px;">GRATIS</p></h2>
                 <hr class="divider my-3" />
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center header-content-left-1">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-book-reader text-light mb-4"></i>
                             <h3 class="h4 mb-2" style="color: #548B87; font-weight: bold;">Libros Interactivos</h3>
                             <p class="text-white-50 mb-0">El niño escoja cómo continuar la historia, de modo que llegue a diferentes finales!</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center header-content-left-2">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-download text-light mb-4"></i>
                             <h3 class="h4 mb-2 text-white-75" style="color: #548B87; font-weight: bold;">Offline</h3>
                             <p class="text-white-50 mb-0">Permite leer el libro sin contar con una conexion a la red.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center header-content-left-3">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-headphones-alt text-light mb-4"></i>
                             <h3 class="h4 mb-2 text-white-75" style="color: #548B87; font-weight: bold;">Audiolibros</h3>
                             <p class="text-white-50 mb-0">Audiolibros en los que se puede decidir qué ocurre en la historia!</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center header-content-left-4">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-star text-light mb-4"></i>
                             <h3 class="h4 mb-2 text-white-75" style="color: #548B87; font-weight: bold;">Sugerencias</h3>
@@ -109,7 +111,7 @@
                 <div class="row">
                     <div class="col-lg mx-auto">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1q1NKfsE3SASvCFK7LgxEzZNzGX5cc7Lp/preview" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" src="https://firebasestorage.googleapis.com/v0/b/db-readin.appspot.com/o/Video%20de%20mercados.mp4?alt=media&token=ed46cef2-308c-4d37-9378-0ce5003ec5bb" allowfullscreen></iframe>
                           </div>
                     </div>
                 </div>
@@ -120,19 +122,19 @@
                 <h2 class="text-center text-white-75 mt-0" >PRUEBA NUESTRA <b style="color: aqua; font-weight: bold;">APLICACIÓN</b></h2>
                 <div class="row justify-content-center">
                     <div class="col-sm-6">
-                        <div style="margin-top: 4rem;" class="row mb-3 align-items-top" >
+                        <div class="header-content-top" style="margin-top: 4rem;" class="row mb-3 align-items-top" >
 
-                            <img class="img-fluid mx-auto"  src="assets/img/icon-app.png" alt="" width="50%" />
+                            <img class="img-fluid mx-auto" loading="lazy" src="https://lh3.googleusercontent.com/UIfv35EhQOCYu_-sWq2XYvMPRjloV4JXe2PlsJP213aeFhSNmw-_u2WnmCPf1oKKdrEyImQeFotjrorWLMzlRi34afbwsjoSExAvNnimxD36o--t0gtuyoIHIL2PdeK4flG70fKu=w2400" alt="" width="50%" />
                         </div>
                        <div class="ml-5">
-                            <div class="row mt-5"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> ¿ por qué solo elegir <b style="color: cyan; font-weight: bold;">un final ?</b></h3></div>
-                            <div class="row mt-2"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> Tu eres el <b style="color: cyan; font-weight: bold;">Autor</b> de la historia </h3></div>
-                            <div class="row mt-2"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> Elige tu historia y elige tu <b style="color: cyan; font-weight: bold;">Final</b></h3></div>
-                            <div class="row mt-2"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> Comprende al <b style="color: cyan; font-weight: bold;">personaje</b> </h3></div>
+                            <div class="row mt-5 header-content-left-1"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> ¿ por qué solo elegir <b style="color: cyan; font-weight: bold;">un final ?</b></h3></div>
+                            <div class="row mt-2 header-content-left-2"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> Tu eres el <b style="color: cyan; font-weight: bold;">Autor</b> de la historia </h3></div>
+                            <div class="row mt-2 header-content-left-3"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> Elige tu historia y elige tu <b style="color: cyan; font-weight: bold;">Final</b></h3></div>
+                            <div class="row mt-2 header-content-left-4"><h3 class="text-left text-white-75" ><i class="fas fa-check-double text-light mr-2" ></i> Comprende al <b style="color: cyan; font-weight: bold;">personaje</b> </h3></div>
                        </div>
                     </div>
-                    <div class="col-sm mt-5 align-self-center d-flex justify-content-center"  >
-                        <iframe src="https://appetize.io/embed/u4bm4zj6rjwdnpbbkhdegfxty8?device=pixel4&centered=true&deviceColor=white" width="360px" height="760" frameborder="0" scrolling="no"></iframe>
+                    <div class="col-sm mt-5 align-self-center d-flex justify-content-center header-content-right"  >
+                        <iframe loading="lazy" src="https://appetize.io/embed/u4bm4zj6rjwdnpbbkhdegfxty8?device=pixel4&centered=true&deviceColor=white" width="360px" height="760" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
             </div>
@@ -143,7 +145,7 @@
                     <div class="row no-gutters">
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/1_.png">
-                                <img class="img-fluid" src="assets/img/1_.png" alt="" />
+                                <img loading="lazy" class="img-fluid" src="assets/img/1_.png" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">categoria</div>
                                     <div class="project-name">poster</div>
@@ -152,7 +154,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/2_.png">
-                                <img class="img-fluid" src="assets/img/2_.png" alt="" />
+                                <img loading="lazy"class="img-fluid" src="assets/img/2_.png" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">categoria</div>
                                     <div class="project-name">poster</div>
@@ -161,7 +163,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/3_.png">
-                                <img class="img-fluid" src="assets/img/3_.png" alt="" />
+                                <img loading="lazy"class="img-fluid" src="assets/img/3_.png" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">categoria</div>
                                     <div class="project-name">poster</div>
@@ -170,7 +172,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/4_.png">
-                                <img class="img-fluid" src="assets/img/4_.png" alt="" />
+                                <img loading="lazy"class="img-fluid" src="assets/img/4_.png" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">categoria</div>
                                     <div class="project-name">poster</div>
@@ -179,7 +181,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/3_.png">
-                                <img class="img-fluid" src="assets/img/3_.png" alt="" />
+                                <img loading="lazy"class="img-fluid" src="assets/img/3_.png" alt="" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">categoria</div>
                                     <div class="project-name">poster</div>
@@ -188,7 +190,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/1_.png">
-                                <img class="img-fluid" src="assets/img/1_.png" alt="" />
+                                <img loading="lazy"class="img-fluid" src="assets/img/1_.png" alt="" />
                                 <div class="portfolio-box-caption p-3">
                                     <div class="project-category text-white-50">categoria</div>
                                     <div class="project-name">poster</div>
