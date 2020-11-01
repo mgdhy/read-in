@@ -10673,7 +10673,7 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000000 100%
     ),
-    url("../assets/img/background.webp");
+    url("../assets/img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10867,7 +10867,7 @@ body {
       rgba(0, 0, 0, 0.5) 75%,
       #000000 100%
     ),
-    url("../assets/img/background.webp");
+    url("../assets/img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
