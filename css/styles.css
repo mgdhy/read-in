@@ -10719,7 +10719,7 @@ body {
 
 .about-section {
   padding-top: 3rem;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   background: linear-gradient(
     to bottom,
     #000000 0%,
@@ -10746,7 +10746,7 @@ body {
 }
 
 .projects-section {
-  padding: 0.3rem 0;
+  padding-bottom: 0.3rem;
 }
 .projects-section .featured-text {
   padding: 2rem;
