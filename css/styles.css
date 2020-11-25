@@ -10602,6 +10602,7 @@ body {
   outline: none;
   background-color: transparent;
 }
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -10647,7 +10648,7 @@ body {
     outline: none;
     border-bottom: 0.25rem solid #a6c4c2;
   }
-}
+  }
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -10719,7 +10720,7 @@ body {
 
 .about-section {
   padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   background: linear-gradient(
     to bottom,
     #000000 0%,
