@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" prefix="og: http://ogp.me/ns#">
+<html lang="es" prefix="og: http://ogp.me/ns/website#">
 
 <head>
     <meta charset="utf-8" />
@@ -9,14 +9,17 @@
     <meta name="keywords" content="libro, lectura, read, readin, libros electronicos" />
     <meta name="author" content="Patrick" />
     <!-- The Open Graph protocol -->
-    <meta property="twitter:card" content="summary" />
-    </meta>
-    <meta property="og:url" content="https://www.read-in.tk" />
-    <meta property="twitter:title" content="ReadIN" />
-    <meta property="twitter:description"
+    <meta property="og:url" content="https://read-in.tk" />
+    <meta property="og:title" content="ReadIN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
         content="Somos una librería digital en el cual el lector puede tomar decisiones, cambiar la historia y el final del libro" />
-    <meta property="twitter:image"
-        content="https://firebasestorage.googleapis.com/v0/b/db-readin.appspot.com/o/background.jpg?alt=media&token=6243864c-e203-4f4f-9fac-c37f45582133" />
+    <meta property="og:image"
+        content="https://res.cloudinary.com/mgdhy/image/upload/v1606339496/readin/background_emfksi.jpg" />
+    <meta property="og:image:width" content="850">
+    <meta property="og:image:height" content="450">
+    <meta property="og:image:type" content="image/jpg" />
+
     <!-- datos -->
     <title>ReadIN</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -54,10 +57,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="d-flex align-items-center">
-                        <a class="btn btn-primary text-white" style="border-radius: 10px;" href="forms.html">responder</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Beneficios</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#nosotros">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contactos</a></li>
+                    <li class="d-flex align-items-center">
+                        <a class="btn btn-primary text-white" style="border-radius: 10px;" href="http://en.read-in.tk/forms" target="_blank">Encuesta</a></li>
                 </ul>
             </div>
         </div>
@@ -129,65 +133,173 @@
                 <div class="col-lg mx-auto">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item"
-                            src="https://www.youtube.com/embed/zGkcz8NqO4o"
+                            src="https://res.cloudinary.com/mgdhy/video/upload/v1604180018/readin/ReadIN-spot.mp4"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                        <!--https://firebasestorage.googleapis.com/v0/b/db-readin.appspot.com/o/ReadIN-Spot.mp4?alt=media&token=df1dfc45-5c30-463f-bc7f-ae38bb0e9785 
-                            
+                        <!--
                             https://www.youtube.com/embed/zGkcz8NqO4o
 
-                            https://res.cloudinary.com/mgdhy/video/upload/v1604180018/ReadIN-Spot_dvrgr2.mp4
-                        
-                            https://lh3.googleusercontent.com/NT6VRajpbTOI7qJNNQABpiOhOvhAekS3iAyNualGS7UQU380yOY0tnaoKGNmJsXRAUbmCTDiPuhkA-RwGGbuXu_usJvvJgR9AZIufUH21FFZyHVZAUlBwah3MOOvo8jObnFYd8jH=m18-->
+                            https://firebasestorage.googleapis.com/v0/b/db-readin.appspot.com/o/ReadIN-Spot.mp4?alt=media&token=df1dfc45-5c30-463f-bc7f-ae38bb0e9785 
+                
+                            https://res.cloudinary.com/mgdhy/video/upload/v1604180018/readin/ReadIN-spot.mp4-->
                     </div>
                 </div>
             </div>
         </div>
-
-        <hr class="divider my-3" />
+        <hr class="divider my-4" />
+        <div class="container" id="nosotros">
+            <h2 class="text-center text-white-75 mt-0 mb-4">SOBRE NOSOTROS...</h2>
+            <div class="row align-self-center">
+                <div class="col-sm-6 text-center px-5" style="padding-bottom: 1.5rem;">
+                        <h3 style="color: #548B87;font-weight: bold;">MISION</h3>
+                        <h4 class="text-justify text-white-75 ">
+                            Lograr que nuestros usuarios y más personas puedan desarrollar el hábito de la lectura en nuestra región, fomentar la curiosidad hacia para cultivar un pensamiento critico.
+                        </h4>
+                    
+                </div>
+                <div class="col-sm-6 text-center px-5">
+                        <h3 style="color: #548B87;font-weight: bold;">VISION</h3>
+                    <h4 class="text-justify text-white-75"> Nuestro proyecto busca consolidarse como un aplicativo de libros y desde aquí, abrirnos al resto del mundo aprovechando las herramientas de las que disponemos. (redes sociales, página web, etc.)</h4></div>
+            </div>
+        </div>
+        <hr class="divider my-4">
+        <div class="container-fluid px-0">
+            <div id="portfolio" class="d-flex justify-content-center" style="background-color: #313131 !important">
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters">
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="assets/img/1_.png">
+                                <img loading="lazy" class="img-fluid" src="assets/img/1_.png" alt="" />
+                                <div class="portfolio-box-caption">
+                                    <!-- <div class="project-category text-white-50">Menu</div> -->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="assets/img/2_.png">
+                                <img loading="lazy" class="img-fluid" src="assets/img/2_.png" alt="" />
+                                <div class="portfolio-box-caption">
+                                    <!-- <div class="project-category text-white-50">categorias</div> -->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="assets/img/3_.png">
+                                <img loading="lazy" class="img-fluid" src="assets/img/3_.png" alt="" />
+                                <div class="portfolio-box-caption">
+                                    <!-- <div class="project-category text-white-50">registrarse</div> -->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="assets/img/4_.png">
+                                <img loading="lazy" class="img-fluid" src="assets/img/4_.png" alt="" />
+                                <div class="portfolio-box-caption">
+                                    <!-- <div class="project-category text-white-50">libro</div> -->
+                                    <!-- <div class="project-name">poster</div> -->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="assets/img/5_.png">
+                                <img loading="lazy" class="img-fluid" src="assets/img/5_.png" alt="" />
+                                <div class="portfolio-box-caption">
+                                    <!-- <div class="project-category text-white-50">datos libro</div> -->
+                                    <!-- <div class="project-name">poster</div> -->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="assets/img/6_.png">
+                                <img loading="lazy" class="img-fluid" src="assets/img/6_.png" alt="" />
+                                <div class="portfolio-box-caption p-3">
+                                    <!-- <div class="project-category text-white-50">Buscar</div> -->
+                                    <!-- <div class="project-name">poster</div> -->
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider my-4" />
         <div class="container" id="demo">
             <h2 class="text-center text-white-75 mt-0">¿ COMO FUNCIONA NUESTRA <b
                     style="color: aqua; font-weight: bold;">APLICACIÓN ?</b></h2>
             <div class="row justify-content-center">
                 <div class="col-sm-6">
-                    <div class="header-content-top" style="margin-top: 4rem;" class="row mb-3 align-items-top">
-
-                        <img class="img-fluid mx-auto" loading="lazy" src="assets/img/icon-app.png" alt=""
-                            width="50%" />
+                    <div class="header-content-top" style="margin-top: 1.5rem;" class="row mb-3 align-items-top">
+                        <h3 class="text-center text-white-75 mb-3">
+                                para probar nuestra demo <br> <b style="color: cyan; font-weight: bold;">de click en el icono</b>
+                        </h3>
+                        <a href="http://en.read-in.tk/app" target="_blank"><img class="img-fluid mx-auto" loading="lazy" src="assets/img/icon-app.png" alt=""
+                            width="45%" /></a>
                     </div>
-                    <div class="ml-5">
-                        <div class="row mt-5 header-content-left-1">
-                            <h3 class="text-left text-white-75"><i class="fas fa-check-double text-light mr-2"></i> ¿
-                                por qué solo elegir <b style="color: cyan; font-weight: bold;">un final ?</b></h3>
+                    <div >
+                        <div class="row mt-4 header-content-left-1">
+                            <h3 class=" text-white-75">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="fas fa-check-double text-light mr-2"></i> 
+                                    </div>
+                                    <div class="col-11 text-left"> <b style="color: cyan; font-weight: bold;">ingresa o registrate </b>para leer nuestros libros</div>
+                                </div>
+                            </h3>
                         </div>
                         <div class="row mt-2 header-content-left-2">
-                            <h3 class="text-left text-white-75"><i class="fas fa-check-double text-light mr-2"></i> Tu
-                                eres el <b style="color: cyan; font-weight: bold;">Autor</b> de la historia </h3>
+                            <h3 class=" text-white-75">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="fas fa-check-double text-light mr-2"></i> 
+                                    </div>
+                                    <div class="col-11 text-left"> <b style="color: cyan; font-weight: bold;">elige tu libro y tu final</b> , escoge la ruta que mas te guste</div>
+                                </div>
+                            </h3>
                         </div>
                         <div class="row mt-2 header-content-left-3">
-                            <h3 class="text-left text-white-75"><i class="fas fa-check-double text-light mr-2"></i>
-                                Elige tu historia y elige tu <b style="color: cyan; font-weight: bold;">Final</b></h3>
+                            <h3 class=" text-white-75">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="fas fa-check-double text-light mr-2"></i>
+                                    </div>
+                                    <div class="col-11 text-left">
+                                        guarda tus capitulos para leerlos mas tarde, <b style="color: cyan; font-weight: bold;"> te recordaremos donde te quedaste</b></div>
+                                </div>
+                            </h3>
                         </div>
                         <div class="row mt-2 header-content-left-4">
-                            <h3 class="text-left text-white-75"><i class="fas fa-check-double text-light mr-2"></i>
-                                Comprende al <b style="color: cyan; font-weight: bold;">personaje</b> </h3>
+                            <h3 class=" text-white-75">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="fas fa-check-double text-light mr-2"></i>
+                                    </div>
+                                    <div class="col-11 text-left">¿no sabes que leer? <b style="color: cyan; font-weight: bold;">elige entre nuestras categorias</b></div>
+                                </div>
+                            </h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm align-self-center d-flex justify-content-center">
                     <iframe
-                        src="https://www.youtube.com/embed/LxiO0NKy4w0"
+                        src="https://res.cloudinary.com/mgdhy/video/upload/v1606339475/readin/readIN_APP_tndhlb.mp4"
                         width="288px" height="608" frameborder="0" scrolling="no"></iframe>
-                        <!-- https://www.youtube.com/embed/LxiO0NKy4w0 -->
-                        <!-- https://firebasestorage.googleapis.com/v0/b/db-readin.appspot.com/o/readIN%20APP.mp4?alt=media&token=d25a7dca-3be0-4aeb-a052-efcca6095bb9 -->
+                        <!-- 
+                            https://www.youtube.com/embed/LxiO0NKy4w0
+
+                            https://firebasestorage.googleapis.com/v0/b/db-readin.appspot.com/o/readIN%20APP.mp4?alt=media&token=d25a7dca-3be0-4aeb-a052-efcca6095bb9 
+                        
+                            https://res.cloudinary.com/mgdhy/video/upload/v1606339475/readin/readIN_APP_tndhlb.mp4-->
+
                     <!-- <img loading="lazy" class="img-fluid mx-auto" src="assets/img/home.png" alt="" width="50%" /> -->
                 </div>
             </div>
         </div>
         <!-- <hr class="divider my-3" /> -->
+       
     </section>
 
+    
     <!-- galeria-->
     <!-- <section class="projects-section" id="projects">
         <div id="portfolio" class="d-flex justify-content-center" style="background-color: #313131 !important">
@@ -288,8 +400,8 @@
                 </div>
             </div>
             <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="#page-top"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#page-top"><i class="fab fa-facebook-f"></i></a>
+                <a class="mx-2" href=""><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href=""><i class="fab fa-facebook-f"></i></a>
             </div>
         </div>
     </section>
